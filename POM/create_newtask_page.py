@@ -16,7 +16,7 @@ class CreateNewTaskPage(ExcelRead):
         self.driver.find_element(*self.d["create_task"]).click()
         allid = self.driver.window_handles
         self.driver.switch_to.window(allid[0])
-
+    print("feature1 pulling code")
 
 
 
