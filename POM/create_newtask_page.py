@@ -17,6 +17,8 @@ class CreateNewTaskPage(ExcelRead):
         allid = self.driver.window_handles
         self.driver.switch_to.window(allid[0])
     print("feature1 pulling code")
+    print("create new task page")
+
 
 
 
